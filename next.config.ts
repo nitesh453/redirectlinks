@@ -5,8 +5,8 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
-        source: '/go',
-        destination: 'https://www.amazon.in/dp/ASIN?tag=yourtag-21',
+        source: '/sunscreen',
+        destination: 'https://amzn.to/4bMHyVm',
         permanent: false, // Use false (302) so you can change the link later
       },
       {
