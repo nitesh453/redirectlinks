@@ -10,6 +10,16 @@ const nextConfig: NextConfig = {
         permanent: false, // Use false (302) so you can change the link later
       },
       {
+        source: '/minimilist',
+        destination: 'https://amzn.to/4t1ITPO',
+        permanent: false, // Use false (302) so you can change the link later
+      },
+      {
+        source: '/cetaphil',
+        destination: 'https://amzn.to/47M6kUK',
+        permanent: false, // Use false (302) so you can change the link later
+      },
+      {
         source: '/go/flipkart-deal',
         destination: 'https://www.flipkart.com/product-link?affid=yourid',
         permanent: false,
